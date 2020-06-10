@@ -6,13 +6,13 @@ Detailed documentation is available on [Microsoft Docs](https://docs.microsoft.c
 
 ARM template to deploy a VM with IoT Edge pre-installed and configured for an IoT Central edge module (via cloud-init)
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fiot-for-all%2Fiotcentral-vm-edgemodule-deploy%2Fmaster%2FedgeDeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fiot-for-all%2Fiotc-edgemodule-vm-deploy%2Fmaster%2FedgeDeploy.json" target="_blank">
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png" />
 </a>
 
 The ARM template visualized for exploration
 
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fiot-for-all%2Fiotcentral-vm-edgemodule-deploy%2Fmaster%2FedgeDeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fiot-for-all%2Fiotc-edgemodule-vm-deploy%2Fmaster%2FedgeDeploy.json" target="_blank">
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png" /></a>
 
 This template can be used to quickly provide an IoT Edge device to host your module. When you don't have access to a network or a host device to use on your network you can use an Azure VM to simulate a host Edge device. This template will deploy and Azure VM with the latest IoT Edge runtime pre-installed and with your edge deployment pre-configured for DPS Symmetric Key Provisioning. Simply provide your IoT Central Application `Scope Id`, `Device Id`, and `Device Key`. You can obtain these from your IoT Central Application.
