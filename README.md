@@ -20,8 +20,10 @@ This template can be used to quickly provide an IoT Edge device to host your mod
 ## Azure CLI command to deploy IoT Edge enabled VM with IoT Central edge module
 
 ```bash
+az deployment group create \
+  --subscription "<SUBSCRIPTION_NAME>" \
   --name edgeModuleVM \
-  --resource-group <REPLACE_WITH_RESOURCE_GROUP_NAME> \
+  --resource-group "<RESOURCE_GROUP_NAME>" \
   --template-file edgeDeploy.json \
   --parameters dnsLabelPrefix="edgeModuleDeploy" \
   --parameters adminUsername="<AZURE_USER>" \
