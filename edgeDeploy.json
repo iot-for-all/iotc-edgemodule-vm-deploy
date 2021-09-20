@@ -100,9 +100,6 @@
         "sid": "[parameters('scopeId')]",
         "did": "[parameters('deviceId')]",
         "dky": "[parameters('deviceKey')]",
-        "iotah": "[parameters('iotCentralAppHost')]",
-        "iotat": "[parameters('iotCentralAppApiToken')]",
-        "iotpk": "[parameters('iotCentralDeviceProvisioningKey')]",
         "networkSecurityGroupName": "[concat('nsg-', uniquestring(parameters('dnsLabelPrefix')))]"
     },
     "resources": [
