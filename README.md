@@ -1,6 +1,9 @@
 # iotc-edgemodule-vm-deploy
 
-Detailed documentation is available on [Microsoft Docs](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-ubuntuvm?WT.mc_id=github-iotedgevmdeploy-pdecarlo)
+> This project is deprecated in favor of the Azure IoT Edge deployment for virtual machines. Those instructions can be found here:
+https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-ubuntuvm?view=iotedge-2020-11
+> 
+> To use that deployment with IoT Central - follow the instructions for including the Device Connection String and then after the deployment succeeds you can edit the Azure IoT Edge configuration file (/etc/iotedge/config.yaml for Edge 1.x, and /etc/aziot/config.toml for Edge 2.x) to use the "DPS provisioning with symmetric key attestation" section instead of the "Manual provisioning with an IoT Hub connection string" section.
 
 ## ARM Template to deploy IoT Edge enabled VM pre-configured for an IoT Central edge module
 
